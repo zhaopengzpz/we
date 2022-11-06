@@ -7,5 +7,5 @@ jobs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
       - id: set-matrix
-        run: pip3 install -r requirements.txt
+        run: ls
         
