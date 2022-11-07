@@ -1,6 +1,7 @@
 name: 天气1
 
 on:
+  push:
   schedule:
   - cron: '* * * * *'
 
