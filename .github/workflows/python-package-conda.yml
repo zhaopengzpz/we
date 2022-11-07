@@ -3,7 +3,7 @@ name: 天气1
 on:
   push:
   schedule:
-  - cron: '* * * * *'
+  - cron: '* 0 * * *'
 
 jobs:
   build-linux:
