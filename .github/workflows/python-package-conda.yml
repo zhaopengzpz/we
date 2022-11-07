@@ -1,10 +1,12 @@
 name: 天气1
 
-on: [push]
+on:
+  schedule:
+  - cron: '* * * * *'
 
 jobs:
   build-linux:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest #运行在虚拟机环境ubuntu-latest
     strategy:
       max-parallel: 5
 
